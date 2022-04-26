@@ -1,0 +1,31 @@
+/* Agregar Tarea */
+.container_input{
+    width: 35vw;   
+    height: 100vh;
+    padding: 1rem 2rem;
+    border: solid 2rem;
+    border-color: rgb(2,0,36);
+}
+
+.input1{
+    border-radius: 7px;
+    padding: .5rem;
+    width: 70%;
+}
+
+.input2{
+    display: flex;
+    border-radius: 7px;
+    padding: .5rem;
+    width: 70%;
+}
+
+.btnAñadir{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 3rem;
+    padding: .5rem;
+}

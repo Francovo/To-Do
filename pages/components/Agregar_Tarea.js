@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/index.module.css";
+import styles from "../../styles/Agregar.module.css";
 import { useEffect, useState } from "react";
 
 const Agregar_Tarea = ({ url, Editar }) => {
@@ -64,22 +64,23 @@ const Agregar_Tarea = ({ url, Editar }) => {
 
   return (
     <form onSubmit={onSubmit} className={styles.container_input}>
-      <h3>Titulo de la tarea</h3>
+      <h1>Titulo de la tarea</h1>
       <input
         name="titulo"
         id="titulo"
+        className={styles.input1}
         value={envio.titulo}
         onChange={handleChange}
       />
       <h1>Ingrese la tarea a realizar</h1>
       <input
+      className={styles.input2}
         value={envio.tarea}
         name="tarea"
         id="tarea"
-        placeholder="No olvides..."
         onChange={handleChange}
       />
-      <button onClick={() => envioPost()}>Añadir</button>
+      <button className={styles.btnAñadir} onClick={() => envioPost()}>Añadir</button>
     </form>
   );
 };

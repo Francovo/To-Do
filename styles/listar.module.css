@@ -1,0 +1,46 @@
+
+/* Listar Tarea */
+.container_datos{
+    width: 80%;
+    border: solid 2rem;
+    border-color: rgb(2,0,36);
+    padding: 1rem 5rem;
+}
+
+
+.ContainerData{
+    gap: 1rem;
+    display: flex;
+    margin-bottom: -1rem;
+}
+
+.containerTarea{
+    display: flex;
+    margin-left: 2.3rem;
+}
+
+.tarea{
+    font-weight: 400;
+    width: 90%;
+    word-break: break-all;
+}
+
+.containerBtn{
+    display: flex;
+    align-items: center;
+}
+
+.btnEliminar{
+    background-color: red;
+    font-size: large;
+    height: fit-content;
+
+}
+
+.btnEditar{
+    background-color: rgb(46, 207, 212);
+    font-size: large;
+    font-weight: 900;
+    height: fit-content;
+}
+
