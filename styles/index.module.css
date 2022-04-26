@@ -1,0 +1,23 @@
+
+/* Index */
+.container{
+    display: flex;
+}
+
+
+/* Listar Tarea */
+.container_datos{
+    padding: 1rem 5rem;
+}
+
+
+
+
+
+/* Agregar Tarea */
+.container_input{
+    border: solid black;
+    width: 35vw;   
+    height: 100vh;
+    padding: 1rem 2rem;
+}
